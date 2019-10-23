@@ -6,6 +6,6 @@ import com.example.book_tads.dao.BookDao
 import com.example.book_tads.model.Book
 
 @Database(entities = [Book::class], version = 1)
-abstract class AppdataBase : RoomDatabase() {
+abstract class AppDatabase : RoomDatabase() {
     abstract fun bookDao(): BookDao
 }
