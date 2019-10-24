@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, ListBookActivity::class.java))
         }
 
-        buttonListarLivros.setOnClickListener {
+        buttonPageView.setOnClickListener {
             startActivity(Intent(this, PageViewActivity::class.java))
         }
     }

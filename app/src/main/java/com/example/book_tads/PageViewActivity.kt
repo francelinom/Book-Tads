@@ -25,7 +25,7 @@ class PageViewActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_page_view)
 
-        viewpager.adapter = PageViewAdapter(this,db.bookDao().listAll())
+        viewpager.adapter = PageViewAdapter(this, db.bookDao().listAll())
         viewpager.addOnPageChangeListener(object : ViewPager.OnPageChangeListener {
 
             override fun onPageScrollStateChanged(state: Int) {
