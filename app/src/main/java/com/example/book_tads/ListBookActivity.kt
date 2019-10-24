@@ -20,12 +20,14 @@ class ListBookActivity : AppCompatActivity() {
             .build()
     }
 
-    var books = ArrayList<Book>()
+
     var cont = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list_book)
+
+
 
         buttonProximo.setOnClickListener {
             cont++
@@ -41,6 +43,8 @@ class ListBookActivity : AppCompatActivity() {
     }
 
     fun mudarLivro(){
+
+        var books = db.bookDao().listAll()
         if (books.size > 0){
             textTitulo.text = books.get(cont).name
             textAutor.text = books.get(cont).author
@@ -68,6 +72,7 @@ class ListBookActivity : AppCompatActivity() {
     }
 
     fun outroLivro(){
+        var books = db.bookDao().listAll()
         textTitulo.text = books.get(cont).name.toString()
         textAutor.text = books.get(cont).author.toString()
         textAno.text = books.get(cont).year.toString()
@@ -77,6 +82,7 @@ class ListBookActivity : AppCompatActivity() {
     }
 
     fun voltarOrProximo(){
+        var books = db.bookDao().listAll()
         if (cont + 1 >= books.size){
             buttonProximo.visibility = View.INVISIBLE
         }else{
