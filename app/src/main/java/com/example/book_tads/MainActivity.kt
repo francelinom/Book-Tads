@@ -14,5 +14,9 @@ class MainActivity : AppCompatActivity() {
         buttonCadastrar.setOnClickListener {
             startActivity(Intent(this, RegisterBookActivity::class.java))
         }
+
+        buttonListarLivros.setOnClickListener {
+            startActivity(Intent(this, ListBookActivity::class.java))
+        }
     }
 }

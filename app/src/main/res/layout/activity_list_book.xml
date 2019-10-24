@@ -8,37 +8,44 @@
     android:padding="16dp"
     tools:context=".RegisterBookActivity">
 
-    <EditText
-        android:id="@+id/textTitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Titulo do livro"
-        android:inputType="textPersonName"
-        android:text="" />
-
-    <EditText
-        android:id="@+id/textAuthor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Autor do livro"
-        android:inputType="textPersonName"
-        android:text="" />
-
-    <EditText
-        android:id="@+id/textYear"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Ano do livro"
-        android:inputType="textPersonName"
-        android:text="" />
-
-    <RatingBar
-        android:id="@+id/ratingBar"
+    <GridLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3">
+
+        <TextView android:text="Titulo" />
+
+        <TextView
+            android:id="@+id/textTitulo"
+            android:text="" />
+
+        <TextView android:text="Autor" />
+
+        <TextView
+            android:id="@+id/textAutor"
+            android:text="" />
+
+        <TextView android:text="Ano" />
+
+        <TextView
+            android:id="@+id/textAno"
+            android:text="" />
+
+        <TextView android:text="Nota" />
+
+        <TextView
+            android:id="@+id/textNota"
+            android:text="" />
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -46,22 +53,23 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/buttonSalvar"
-            android:layout_width="match_parent"
+            android:id="@+id/buttonVoltar"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="3dp"
             android:layout_weight="1"
             android:background="@drawable/round_btn"
-            android:text="Salvar" />
+            android:text="Anterior" />
 
         <Button
-            android:id="@+id/buttonCancelar"
-            android:layout_width="match_parent"
+            android:id="@+id/buttonProximo"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="3dp"
             android:layout_weight="1"
             android:background="@drawable/round_btn"
-            android:text="Cancelar" />
+            android:text="Próximo" />
 
     </LinearLayout>
+
 </LinearLayout>

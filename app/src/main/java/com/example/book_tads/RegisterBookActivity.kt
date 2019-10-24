@@ -26,7 +26,7 @@ class RegisterBookActivity : AppCompatActivity() {
         setContentView(R.layout.activity_register_book)
 
         buttonSalvar.setOnClickListener {
-            save()
+            saveBook()
         }
 
         buttonCancelar.setOnClickListener {
@@ -35,7 +35,7 @@ class RegisterBookActivity : AppCompatActivity() {
         }
     }
 
-    fun save() {
+    fun saveBook() {
         try {
             db.bookDao().insert(
                 Book(
