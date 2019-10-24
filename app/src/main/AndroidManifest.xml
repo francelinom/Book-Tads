@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListBookActivity"></activity>
+        <activity android:name=".PageViewActivity"></activity>
+        <activity android:name=".ListBookActivity" />
         <activity android:name=".RegisterBookActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
