@@ -3,6 +3,7 @@ package com.example.book_tads
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_auto_complete.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -19,8 +20,14 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, ListBookActivity::class.java))
         }
 
+        buttonAutoComplete.setOnClickListener {
+            startActivity(Intent(this, AutoCompleteActivity::class.java))
+        }
+
         buttonPageView.setOnClickListener {
             startActivity(Intent(this, PageViewActivity::class.java))
         }
+
+
     }
 }
