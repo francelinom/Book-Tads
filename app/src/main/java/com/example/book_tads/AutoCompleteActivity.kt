@@ -3,6 +3,7 @@ package com.example.book_tads
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
+import android.widget.Toast
 import androidx.room.Room
 import com.example.book_tads.connection.AppDatabase
 import com.example.book_tads.model.Book
@@ -44,6 +45,11 @@ class AutoCompleteActivity : AppCompatActivity() {
 
         autoCompleteTextView.setOnItemClickListener { adapterView, view, i, l ->
             var selected = adapterView.getItemAtPosition(i)
+            Toast.makeText(
+                this,
+                "$selected"
+                , Toast.LENGTH_SHORT
+            ).show()
             var books = db.bookDao().findByName(selected.toString())
             textTitulo.text = books.name
             textAutor.text = books.author

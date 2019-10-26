@@ -24,6 +24,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, AutoCompleteActivity::class.java))
         }
 
+        buttonListView.setOnClickListener {
+            startActivity(Intent(this, Book_LayoutActivity::class.java))
+        }
+
         buttonPageView.setOnClickListener {
             startActivity(Intent(this, PageViewActivity::class.java))
         }

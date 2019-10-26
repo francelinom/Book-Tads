@@ -9,7 +9,9 @@
         android:roundIcon="@drawable/book_inicio"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AutoCompleteActivity"></activity>
+        <activity android:name=".Book_LayoutActivity"></activity>
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".AutoCompleteActivity" />
         <activity android:name=".PageViewActivity" />
         <activity android:name=".ListBookActivity" />
         <activity android:name=".RegisterBookActivity" />
