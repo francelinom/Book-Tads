@@ -1,4 +1,4 @@
-package com.example.book_tads
+package com.example.book_tads.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.viewpager.widget.PagerAdapter
+import com.example.book_tads.R
 import com.example.book_tads.model.Book
 
 class PageViewAdapter(var context: Context, var books: List<Book>) : PagerAdapter() {

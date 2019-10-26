@@ -1,4 +1,4 @@
-package com.example.book_tads
+package com.example.book_tads.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
+import com.example.book_tads.R
 import com.example.book_tads.model.Book
-import kotlinx.android.synthetic.main.activity_book__layout.view.*
 
 class BooksAdapter(c: Context, f: List<Book>) : BaseAdapter() {
     var context: Context = c
