@@ -1,7 +1,8 @@
-package com.example.book_tads
+package com.example.book_tads.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.book_tads.R
 
 class ListViewActivity : AppCompatActivity() {
 

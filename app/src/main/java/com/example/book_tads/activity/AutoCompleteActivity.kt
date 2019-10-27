@@ -1,14 +1,13 @@
-package com.example.book_tads
+package com.example.book_tads.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.room.Room
+import com.example.book_tads.R
 import com.example.book_tads.connection.AppDatabase
-import com.example.book_tads.model.Book
 import kotlinx.android.synthetic.main.activity_auto_complete.*
-import kotlinx.android.synthetic.main.activity_register_book.view.*
 
 class AutoCompleteActivity : AppCompatActivity() {
 

@@ -1,9 +1,9 @@
-package com.example.book_tads
+package com.example.book_tads.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_auto_complete.*
+import com.example.book_tads.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -30,6 +30,10 @@ class MainActivity : AppCompatActivity() {
 
         buttonPageView.setOnClickListener {
             startActivity(Intent(this, PageViewActivity::class.java))
+        }
+
+        buttonRecyclerView.setOnClickListener {
+            startActivity(Intent(this, RecyclerViewActivity::class.java))
         }
 
 

@@ -1,10 +1,11 @@
-package com.example.book_tads
+package com.example.book_tads.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.room.Room
 import androidx.viewpager.widget.ViewPager
+import com.example.book_tads.R
 import com.example.book_tads.adapter.PageViewAdapter
 import com.example.book_tads.connection.AppDatabase
 import kotlinx.android.synthetic.main.activity_page_view.*

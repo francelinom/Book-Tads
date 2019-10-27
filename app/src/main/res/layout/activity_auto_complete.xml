@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16pt"
-    tools:context=".AutoCompleteActivity">
+    tools:context=".activity.AutoCompleteActivity">
 
     <AutoCompleteTextView
         android:id="@+id/autoCompleteTextView"

@@ -9,13 +9,15 @@
         android:roundIcon="@drawable/book_inicio"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Book_LayoutActivity"></activity>
-        <activity android:name=".ListViewActivity" />
-        <activity android:name=".AutoCompleteActivity" />
-        <activity android:name=".PageViewActivity" />
-        <activity android:name=".ListBookActivity" />
-        <activity android:name=".RegisterBookActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.RecyclerViewActivity"></activity>
+        <activity android:name=".activity.ViewHolderActivity" />
+        <activity android:name=".activity.Book_LayoutActivity" />
+        <activity android:name=".activity.ListViewActivity" />
+        <activity android:name=".activity.AutoCompleteActivity" />
+        <activity android:name=".activity.PageViewActivity" />
+        <activity android:name=".activity.ListBookActivity" />
+        <activity android:name=".activity.RegisterBookActivity" />
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
