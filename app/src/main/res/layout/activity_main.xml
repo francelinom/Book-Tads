@@ -1,96 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@color/aliceBlue"
     tools:context=".activity.MainActivity">
 
-    <Button
-        android:id="@+id/buttonCadastrar"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Cadastrar"
-        android:layout_marginTop="5dp"
-        android:layout_gravity="center"
-        android:layout_margin="1dp"
-        android:padding="20dp"
-        android:textSize="20dp"
-        android:background="@drawable/round_btn"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/buttonListarLivros"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Listar Livros"
-        android:layout_marginTop="5dp"
-        android:layout_gravity="center"
-        android:layout_margin="1dp"
-        android:padding="20dp"
-        android:textSize="20dp"
-        android:background="@drawable/round_btn"/>
+        <Button
+            android:id="@+id/buttonCadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/round_btn"
+            android:padding="20dp"
+            android:text="Cadastrar"
+            android:textAllCaps="true"
+            android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/buttonAutoComplete"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Auto Complete"
-        android:layout_marginTop="5dp"
-        android:layout_gravity="center"
-        android:layout_margin="1dp"
-        android:padding="20dp"
-        android:textSize="20dp"
-        android:background="@drawable/round_btn"/>
+        <Button
+            android:id="@+id/buttonListarLivros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/round_btn"
+            android:padding="20dp"
+            android:text="Listar Livros"
+            android:textAllCaps="true"
+            android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/buttonListView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="List View"
-        android:layout_marginTop="5dp"
-        android:layout_gravity="center"
-        android:layout_margin="1dp"
-        android:padding="20dp"
-        android:textSize="20dp"
-        android:background="@drawable/round_btn"/>
+        <Button
+            android:id="@+id/buttonAutoComplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/round_btn"
+            android:padding="20dp"
+            android:text="Auto Complete"
+            android:textAllCaps="true"
+            android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/buttonRecyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Recycler View"
-        android:layout_marginTop="5dp"
-        android:layout_gravity="center"
-        android:layout_margin="1dp"
-        android:padding="20dp"
-        android:textSize="20dp"
-        android:background="@drawable/round_btn"/>
+        <Button
+            android:id="@+id/buttonListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/round_btn"
+            android:padding="20dp"
+            android:text="List View"
+            android:textAllCaps="true"
+            android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/buttonSwipeDragDrop"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Swipe Drag Drop"
-        android:layout_marginTop="5dp"
-        android:layout_gravity="center"
-        android:layout_margin="1dp"
-        android:padding="20dp"
-        android:textSize="20dp"
-        android:background="@drawable/round_btn"/>
+        <Button
+            android:id="@+id/buttonRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/round_btn"
+            android:padding="20dp"
+            android:text="Recycler View"
+            android:textAllCaps="true"
+            android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/buttonPageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Page View"
-        android:layout_marginTop="5dp"
-        android:layout_gravity="center"
-        android:layout_margin="1dp"
-        android:padding="20dp"
-        android:textSize="20dp"
-        android:background="@drawable/round_btn"/>
+        <Button
+            android:id="@+id/buttonSwipeDragDrop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/round_btn"
+            android:padding="20dp"
+            android:text="Swipe Drag Drop"
+            android:textAllCaps="true"
+            android:textSize="20sp" />
 
+        <Button
+            android:id="@+id/buttonPageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/round_btn"
+            android:padding="20dp"
+            android:text="Page View"
+            android:textAllCaps="true"
+            android:textSize="20sp" />
 
 
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>
