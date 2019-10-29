@@ -32,6 +32,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, PageViewActivity::class.java))
         }
 
+        buttonSwipeDragDrop.setOnClickListener {
+            startActivity(Intent(this, SwipeDragDropActivity::class.java))
+        }
+
         buttonRecyclerView.setOnClickListener {
             startActivity(Intent(this, RecyclerViewActivity::class.java))
         }

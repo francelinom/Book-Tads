@@ -16,6 +16,12 @@ interface BookDao {
     @Update
     fun update(book: Book): Int
 
+    @Insert
+    fun inserirAll(vararg l: Book): LongArray
+
+    @Query("DELETE FROM BOOK")
+    fun deleteAll(): Int
+
     @Query("SELECT * FROM BOOK")
     fun listAll(): MutableList<Book>
 

@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/book_inicio"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.RecyclerViewActivity"></activity>
+        <activity android:name=".activity.SwipeDragDropActivity"></activity>
+        <activity android:name=".activity.RecyclerViewActivity" />
         <activity android:name=".activity.ViewHolderActivity" />
         <activity android:name=".activity.Book_LayoutActivity" />
         <activity android:name=".activity.ListViewActivity" />
