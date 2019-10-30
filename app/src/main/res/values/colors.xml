@@ -4,9 +4,13 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
 
-    <color name="colorButton">#2655e3</color>
-
+    <color name="colorButton">#00BFFF</color>
     <color name="red">#DC143C</color>
-
     <color name="aliceBlue">#F0F8FF</color>
+    <color name="cor1">#5ac25f</color>
+    <color name="cor2">#05a890</color>
+    <color name="cor3">#d1d762</color>
+    <color name="cor4">#66000000</color>
+    <color name="colorText">#f9f9f9</color>
+    <color name="colorButtonLogin">#ffffff</color>
 </resources>

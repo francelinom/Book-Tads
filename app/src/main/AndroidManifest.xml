@@ -9,7 +9,14 @@
         android:roundIcon="@drawable/book_inicio"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.SwipeDragDropActivity"></activity>
+        <activity android:name=".activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.SwipeDragDropActivity" />
         <activity android:name=".activity.RecyclerViewActivity" />
         <activity android:name=".activity.ViewHolderActivity" />
         <activity android:name=".activity.Book_LayoutActivity" />
@@ -19,11 +26,7 @@
         <activity android:name=".activity.ListBookActivity" />
         <activity android:name=".activity.RegisterBookActivity" />
         <activity android:name=".activity.MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

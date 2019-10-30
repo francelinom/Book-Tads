@@ -21,7 +21,9 @@
             android:padding="20dp"
             android:text="Cadastrar"
             android:textAllCaps="true"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/buttonListarLivros"
@@ -32,7 +34,9 @@
             android:padding="20dp"
             android:text="Listar Livros"
             android:textAllCaps="true"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/buttonAutoComplete"
@@ -43,7 +47,9 @@
             android:padding="20dp"
             android:text="Auto Complete"
             android:textAllCaps="true"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/buttonListView"
@@ -54,7 +60,9 @@
             android:padding="20dp"
             android:text="List View"
             android:textAllCaps="true"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/buttonRecyclerView"
@@ -65,7 +73,9 @@
             android:padding="20dp"
             android:text="Recycler View"
             android:textAllCaps="true"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/buttonSwipeDragDrop"
@@ -76,7 +86,9 @@
             android:padding="20dp"
             android:text="Swipe Drag Drop"
             android:textAllCaps="true"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/buttonPageView"
@@ -87,7 +99,9 @@
             android:padding="20dp"
             android:text="Page View"
             android:textAllCaps="true"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"/>
 
 
     </LinearLayout>
