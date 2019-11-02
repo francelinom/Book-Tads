@@ -32,6 +32,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, PageViewActivity::class.java))
         }
 
+        buttonGridView.setOnClickListener {
+            startActivity(Intent(this, GridViewActivity::class.java))
+        }
+
         buttonSwipeDragDrop.setOnClickListener {
             startActivity(Intent(this, SwipeDragDropActivity::class.java))
         }

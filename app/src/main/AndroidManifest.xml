@@ -9,6 +9,7 @@
         android:roundIcon="@drawable/book_inicio"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".activity.GridViewActivity"></activity>
         <activity android:name=".activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,9 +26,7 @@
         <activity android:name=".activity.PageViewActivity" />
         <activity android:name=".activity.ListBookActivity" />
         <activity android:name=".activity.RegisterBookActivity" />
-        <activity android:name=".activity.MainActivity">
-
-        </activity>
+        <activity android:name=".activity.MainActivity"></activity>
     </application>
 
 </manifest>
